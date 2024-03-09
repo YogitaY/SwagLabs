@@ -1,0 +1,584 @@
+[
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2024-03-08T14:29:05.511Z",
+				"line": 3,
+				"name": "Test the Add to cart adding products",
+				"description": "",
+				"id": "test-the-add-to-car-functionality-of-swag-labs;test-the-add-to-cart-adding-products",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 14978357000,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "User is on home page",
+						"match": {
+							"location": "com.stepDefination.AddToCartSteps.user_is_on_home_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 101557500,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "User click on Swag Lab Bag to veiw product details",
+						"match": {
+							"location": "com.stepDefination.AddToCartSteps.user_click_on_sauce_labs_backpack_to_veiw_sauce_labs_backpack_details()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 331055100,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "Click on Add To cart button",
+						"match": {
+							"location": "com.stepDefination.AddToCartSteps.click_on_add_to_cart_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 3786168200,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "User able to add products in Add to cart",
+						"match": {
+							"location": "com.stepDefination.AddToCartSteps.user_able_to_add_products_in_add_to_cart()"
+						},
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "Test the Add to car functionality of Swag Labs",
+		"description": "",
+		"id": "test-the-add-to-car-functionality-of-swag-labs",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/SwagLabsFeatures/AddToCartswagLabs.feature",
+		"tags": [
+		]
+	},
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2024-03-08T14:29:24.800Z",
+				"line": 3,
+				"name": "Test the valid Checkout",
+				"description": "",
+				"id": "test-the-checkout-functionality-of-swag-labs;test-the-valid-checkout",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 13421057100,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "User is on add to cart page",
+						"match": {
+							"location": "com.stepDefination.CheckoutSteps.user_is_on_add_to_cart_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 313235900,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "User click on checkout butoon",
+						"match": {
+							"location": "com.stepDefination.CheckoutSteps.user_click_on_checkout_butoon()"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 503534200,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "User enters FirstName, LastName and Address",
+						"match": {
+							"location": "com.stepDefination.CheckoutSteps.user_enters_first_name_last_name_and_address()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 300194300,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "User click on finish button",
+						"match": {
+							"location": "com.stepDefination.CheckoutSteps.user_click_on_finish_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 3096556600,
+							"status": "passed"
+						},
+						"line": 8,
+						"name": "User Completed ordering product",
+						"match": {
+							"location": "com.stepDefination.CheckoutSteps.user_completed_ordering_product()"
+						},
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "Test the Checkout functionality of Swag Labs",
+		"description": "",
+		"id": "test-the-checkout-functionality-of-swag-labs",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/SwagLabsFeatures/CheckoutSwagLabs.feature",
+		"tags": [
+		]
+	},
+	{
+		"line": 1,
+		"elements": [
+			{
+				"start_timestamp": "2024-03-08T14:29:42.470Z",
+				"line": 11,
+				"name": "Test the valid login",
+				"description": "",
+				"id": "test-the-login-functionality-of-swag-labs;test-the-valid-login;;2",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 13351140800,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "user is on login page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_is_on_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 591834300,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user enters standard_user and secret_sauce",
+						"match": {
+							"arguments": [
+								{
+									"val": "standard_user",
+									"offset": 12
+								},
+								{
+									"val": "secret_sauce",
+									"offset": 30
+								}
+							],
+							"location": "com.stepDefination.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 428031100,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "click on login button",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.click_on_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 3338728200,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "user should land on Home page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_should_land_on_home_page()"
+						},
+						"keyword": "Then "
+					}
+				]
+			},
+			{
+				"start_timestamp": "2024-03-08T14:30:00.215Z",
+				"line": 12,
+				"name": "Test the valid login",
+				"description": "",
+				"id": "test-the-login-functionality-of-swag-labs;test-the-valid-login;;3",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 12935803800,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "user is on login page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_is_on_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 629555300,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user enters locked_out_user and secret_sauce",
+						"match": {
+							"arguments": [
+								{
+									"val": "locked_out_user",
+									"offset": 12
+								},
+								{
+									"val": "secret_sauce",
+									"offset": 32
+								}
+							],
+							"location": "com.stepDefination.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 350725100,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "click on login button",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.click_on_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"error_message": "junit.framework.ComparisonFailure: expected:<...//www.saucedemo.com/[inventory.html]> but was:<...//www.saucedemo.com/[]>\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat com.stepDefination.LoginSteps.user_should_land_on_home_page(LoginSteps.java:51)\r\n\tat ✽.user should land on Home page(file:///C:/Users/yogit/eclipse-workspace/SwagLabsCucumberProject/src/test/resources/SwagLabsFeatures/LoginSwagLab.feature:7)\r\n",
+							"duration": 28006300,
+							"status": "failed"
+						},
+						"line": 7,
+						"name": "user should land on Home page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_should_land_on_home_page()"
+						},
+						"keyword": "Then "
+					}
+				]
+			},
+			{
+				"start_timestamp": "2024-03-08T14:30:14.197Z",
+				"line": 13,
+				"name": "Test the valid login",
+				"description": "",
+				"id": "test-the-login-functionality-of-swag-labs;test-the-valid-login;;4",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 13506395500,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "user is on login page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_is_on_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 597061200,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user enters problem_user and secret_sauce",
+						"match": {
+							"arguments": [
+								{
+									"val": "problem_user",
+									"offset": 12
+								},
+								{
+									"val": "secret_sauce",
+									"offset": 29
+								}
+							],
+							"location": "com.stepDefination.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 427020000,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "click on login button",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.click_on_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 3104553000,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "user should land on Home page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_should_land_on_home_page()"
+						},
+						"keyword": "Then "
+					}
+				]
+			},
+			{
+				"start_timestamp": "2024-03-08T14:30:31.844Z",
+				"line": 14,
+				"name": "Test the valid login",
+				"description": "",
+				"id": "test-the-login-functionality-of-swag-labs;test-the-valid-login;;5",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 13352545300,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "user is on login page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_is_on_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 605764700,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user enters performance_glitch_user and secret_sauce",
+						"match": {
+							"arguments": [
+								{
+									"val": "performance_glitch_user",
+									"offset": 12
+								},
+								{
+									"val": "secret_sauce",
+									"offset": 40
+								}
+							],
+							"location": "com.stepDefination.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 5379652100,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "click on login button",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.click_on_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 3031697100,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "user should land on Home page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_should_land_on_home_page()"
+						},
+						"keyword": "Then "
+					}
+				]
+			},
+			{
+				"start_timestamp": "2024-03-08T14:30:54.227Z",
+				"line": 15,
+				"name": "Test the valid login",
+				"description": "",
+				"id": "test-the-login-functionality-of-swag-labs;test-the-valid-login;;6",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 13348230000,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "user is on login page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_is_on_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 578392500,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user enters error_user and secret_sauce",
+						"match": {
+							"arguments": [
+								{
+									"val": "error_user",
+									"offset": 12
+								},
+								{
+									"val": "secret_sauce",
+									"offset": 27
+								}
+							],
+							"location": "com.stepDefination.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 475819400,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "click on login button",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.click_on_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"duration": 3770958200,
+							"status": "passed"
+						},
+						"line": 7,
+						"name": "user should land on Home page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_should_land_on_home_page()"
+						},
+						"keyword": "Then "
+					}
+				]
+			},
+			{
+				"start_timestamp": "2024-03-08T14:31:12.411Z",
+				"line": 16,
+				"name": "Test the valid login",
+				"description": "",
+				"id": "test-the-login-functionality-of-swag-labs;test-the-valid-login;;7",
+				"type": "scenario",
+				"keyword": "Scenario Outline",
+				"steps": [
+					{
+						"result": {
+							"duration": 12893353500,
+							"status": "passed"
+						},
+						"line": 4,
+						"name": "user is on login page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_is_on_login_page()"
+						},
+						"keyword": "Given "
+					},
+					{
+						"result": {
+							"duration": 530294400,
+							"status": "passed"
+						},
+						"line": 5,
+						"name": "user enters visual_user and secret_",
+						"match": {
+							"arguments": [
+								{
+									"val": "visual_user",
+									"offset": 12
+								},
+								{
+									"val": "secret_",
+									"offset": 28
+								}
+							],
+							"location": "com.stepDefination.LoginSteps.user_enters_username_and_password(java.lang.String,java.lang.String)"
+						},
+						"keyword": "When "
+					},
+					{
+						"result": {
+							"duration": 365507700,
+							"status": "passed"
+						},
+						"line": 6,
+						"name": "click on login button",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.click_on_login_button()"
+						},
+						"keyword": "And "
+					},
+					{
+						"result": {
+							"error_message": "junit.framework.ComparisonFailure: expected:<...//www.saucedemo.com/[inventory.html]> but was:<...//www.saucedemo.com/[]>\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat com.stepDefination.LoginSteps.user_should_land_on_home_page(LoginSteps.java:51)\r\n\tat ✽.user should land on Home page(file:///C:/Users/yogit/eclipse-workspace/SwagLabsCucumberProject/src/test/resources/SwagLabsFeatures/LoginSwagLab.feature:7)\r\n",
+							"duration": 23063000,
+							"status": "failed"
+						},
+						"line": 7,
+						"name": "user should land on Home page",
+						"match": {
+							"location": "com.stepDefination.LoginSteps.user_should_land_on_home_page()"
+						},
+						"keyword": "Then "
+					}
+				]
+			}
+		],
+		"name": "Test the login functionality of Swag Labs",
+		"description": "",
+		"id": "test-the-login-functionality-of-swag-labs",
+		"keyword": "Feature",
+		"uri": "file:src/test/resources/SwagLabsFeatures/LoginSwagLab.feature",
+		"tags": [
+		]
+	}
+]
